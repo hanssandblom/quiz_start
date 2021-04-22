@@ -17,7 +17,7 @@ app.listen(HTTP_PORT, () => {
     console.log("Server running on port %PORT%".replace("%PORT%",HTTP_PORT))
 });
 
-app.get("/api/bok", (req, res, next) => {
+app.get("/api/city", (req, res, next) => {
     var sql = "select * from city"
     var params = []
     db.all(sql, params, (err, rows) => {
