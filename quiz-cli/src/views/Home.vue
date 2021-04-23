@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <img class="home-img" alt="City Quiz" src="../assets/city-quiz.jpg">
-    <HelloWorld msg="Welcome to Our City Quiz App!"/>
     <ul>
       <h2>Top 3 Highest Scores</h2>
       <li>
@@ -19,12 +18,12 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Quiz from '@/components/Quiz.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Quiz
   }
 }
 </script>

@@ -1,9 +1,11 @@
 <template>
-  <h1>Quiz</h1>
+  <Quiz />
 </template>
 
 <script>
+import Quiz from '@/components/Quiz.vue';
 export default {
+  components: { Quiz },
 name: "Quiz"
 }
 </script>
