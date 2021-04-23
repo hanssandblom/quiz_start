@@ -1,0 +1,14 @@
+{
+  "stad": [
+    {
+      "stadId": "1",
+      "stadNamn": "Paris",
+      "stadByggnad": "Eifeltornet"
+    },
+    {
+      "stadId": "2",
+      "stadNamn": "London",
+      "stadByggnad": "Tower Bridge"
+    }
+  ]
+  }
