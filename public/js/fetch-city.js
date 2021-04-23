@@ -7,8 +7,8 @@ function append(parent, el) {
 }
 
 const ul = document.getElementById('city');
-//const url = 'http://127.0.0.1:3000/api/city/';
-const url = 'data/data.json';
+const url = 'http://127.0.0.1:3000/api/city/';
+//const url = 'data/data.json';
 fetch(url)
     .then((resp) => resp.json())
     .then(function(data) {
